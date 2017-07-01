@@ -1,0 +1,29 @@
+{
+  "name": "envexpand",
+  "version": "1.0.0",
+  "description": "Expand environment variables in strings, arrays and objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --inline-diffs",
+    "cover": "istanbul cover _mocha --report html -- --recursive -R spec -t 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenya/envexpand.git"
+  },
+  "keywords": [
+    "expand",
+    "env",
+    "environment",
+    "variable"
+  ],
+  "author": "Frantisek Vymazal <frenya@f8.cz> (http://f8.cz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frenya/envexpand/issues"
+  },
+  "homepage": "https://github.com/frenya/envexpand#readme",
+  "devDependencies": {
+    "chai": "^4.0.2"
+  }
+}
